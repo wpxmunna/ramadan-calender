@@ -1,0 +1,91 @@
+:root{
+    --background: #eff2f9;
+    --foreground: #ffffff;
+    --primary: #6a74c9;
+    --text-black: #484848;
+    --text-gray: #4f4f4f;
+    --border: #e6e6e6;
+    --shadow: #b1b1b140;
+}
+.ramadan-date .container{
+    background: none;
+    margin-top: 40px;
+    padding: 0px;
+    box-shadow: none;
+    display: flex;
+    justify-content: space-between;
+}
+.date-wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    margin-right: 3%;
+}
+.date-wrapper .date-table{
+    background: var(--foreground);
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 1px 2px 7px var(--shadow);
+}
+.date-wrapper .date-table h2{
+    color: var(--primary);
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+.date-wrapper .date-table table{
+    width: 100%;
+    text-align: center;
+}
+.date-wrapper .date-table tr th{
+    background: var(--primary);
+    padding: 10px;
+    border-radius: 6px;
+    text-transform: uppercase;
+    border: 1px solid var(--border);
+}
+.date-wrapper .date-table tr td{
+    background: var(--background);
+    padding: 6px;
+    border-radius: 6px;
+    text-transform: uppercase;
+    border: 1px solid var(--border);
+    color: var(--text-black);
+    cursor: pointer;
+}
+.ramadan-dua{
+    width: 32%;
+}
+.ramadan-dua ul{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+}
+.ramadan-dua ul li{
+    background: var(--foreground);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 1px 2px 7px var(--shadow);
+    margin-bottom: 20px;
+}
+.ramadan-dua ul li h4{
+    color: var(--primary);
+    margin-bottom: 10px;
+    font-size: 18px;
+    text-align: center;
+}
+.ramadan-dua ul li p{
+    color:var(--text-gray);
+    text-align: center;
+    margin-bottom: 15px;
+}
+.ramadan-dua ul li b{
+    color: var(--text-black);
+    text-align: center;
+    display: block;
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+.head-text h1{
+    color: var(--primary);
+}
